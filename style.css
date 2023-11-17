@@ -1,0 +1,48 @@
+/* .*{
+    box-sizing: border-box;
+} */
+body{
+    background-image: url("https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&w=600");
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.country{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+.map {
+    width: 50vw;
+    height: 40vh;
+  }
+
+nav h4{
+    font-weight: bold;
+    /* color: white; */
+    font-style: italic;
+    font-size: xx-large;
+}
+
+nav .nav-link{
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav .nav-link:hover{
+    font-size: larger;
+}
+footer{
+    height: 60px;
+    color:black;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
